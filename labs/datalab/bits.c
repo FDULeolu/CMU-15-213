@@ -352,5 +352,5 @@ unsigned floatPower2(int x) {
   else if(x<=127)
     return (0x7f+x)<<23;
   else
-    return 0x7f800000u;//无穷
+    return 0x7f800000u;
 }
